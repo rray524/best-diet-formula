@@ -10,7 +10,7 @@ body{
 .one-half {
     width: 50%;
 }
-/* logo area */
+/* logo & menu area */
 .logo {
     text-align: center;
 }
@@ -19,13 +19,20 @@ img.diet-logo {
 }
 ul#menu-item li {
     list-style: none;
+    padding: 0 35px;
 }
 ul#menu-item li a {
     text-decoration: none;
     color: #000000;
     font-size: 19px;
-    padding: 0 35px;
     text-transform: uppercase;
+}
+ul#menu-item li a:hover{
+    border-bottom: 2px solid #FF1E1E;
+    transition: .1s;
+}
+ul#menu-item li a:active{
+    border-bottom: none;
 }
 ul#menu-item {
     display: inline-flex;
