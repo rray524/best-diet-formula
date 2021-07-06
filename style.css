@@ -29,10 +29,11 @@ ul#menu-item li a {
     color: #000000;
     font-size: 19px;
     text-transform: uppercase;
+    transition: .1s;
 }
 ul#menu-item li a:hover{
     border-bottom: 2px solid #FF1E1E;
-    transition: .1s;
+    
 }
 
 ul#menu-item {
