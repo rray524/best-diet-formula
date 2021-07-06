@@ -25,6 +25,7 @@ ul#menu-item li a {
     color: #000000;
     font-size: 19px;
     padding: 0 35px;
+    text-transform: uppercase;
 }
 ul#menu-item {
     display: inline-flex;
