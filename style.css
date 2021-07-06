@@ -141,7 +141,7 @@ p.receipe-para {
 .one-third {
     width: 29%;
     border: 1px solid #fff;
-    border-radius: 8%;
+    border-radius: 33px;
     padding: 20px;
     box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
 }
